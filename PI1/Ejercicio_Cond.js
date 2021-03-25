@@ -5,8 +5,8 @@ const alturaMin = 120;
 const alturaMax = 200;
 //let acompañado = true;
 
-function puedeSubir(altura, acompañado) { 
-    if (altura > alturaMax || altura < alturaMin){
+function puedeSubir(altura, acompañado, penalizado) { 
+    if (altura > alturaMax || altura < alturaMin || penalizado){
         return false;
     } else if (altura >= 140) {
         return true;
