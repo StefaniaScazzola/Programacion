@@ -38,3 +38,7 @@ function puedePasar(nombre) {
 }
 puedePasar();
 console.log(puedePasar("Cosme Fulanito"));
+
+//GENERAR NUMEROS ALEATORIOS ENTEROS ENTRE 1 Y 10
+let numAleatorio = Math.floor(Math.random()*10);
+console.log(numAleatorio);
