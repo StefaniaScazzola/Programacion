@@ -61,33 +61,33 @@ let arrayFrase = [
 //   console.log(alumnoEgresado);
 
   //Ejercicio 3 PG - Agregar dos alumnos
-//   let estudiantes = [
-//     {
-//       nombre: 'Alvaro',
-//       promedio : 9,
-//       curso : 'Android',
-//     },
-//     {
-//       nombre: 'Daniel',
-//       promedio : 6,
-//       curso : 'Full Stack',
-//     },
-//     {
-//       nombre: 'Alexis',
-//       promedio : 3,
-//       curso : 'iOS',
-//     },
-//   ]
-//   estudiantes.push({
-//     nombre: 'Juan',
-//     promedio : 5,
-//     curso : 'iOS',
-//   },
-//   { nombre: 'Miguel',
-//     promedio : 2,
-//     curso : 'Adroid',
-//   });
-//   console.log(estudiantes);
+  let estudiantes = [
+    {
+      nombre: 'Alvaro',
+      promedio : 9,
+      curso : 'Android',
+    },
+    {
+      nombre: 'Daniel',
+      promedio : 6,
+      curso : 'Full Stack',
+    },
+    {
+      nombre: 'Alexis',
+      promedio : 3,
+      curso : 'iOS',
+    },
+  ]
+  estudiantes.push({
+    nombre: 'Juan',
+    promedio : 5,
+    curso : 'iOS',
+  },
+  { nombre: 'Miguel',
+    promedio : 2,
+    curso : 'Adroid',
+  });
+  console.log(estudiantes);
 
   //Ejercicio 4 PG - Sacar un alumno
 //   let estudiantes = [
@@ -134,13 +134,13 @@ let arrayFrase = [
         }
       ]
       estudiantes.unshift({
-        nombre:"'Mariana",
+        nombre:"Mariana",
         promedio : 9,
         curso : "Full Stack",
       })
       
       estudiantes.unshift({
-        nombre:"'Francisco",
+        nombre:"Francisco",
         promedio : 2,
         curso : "Android",
       })

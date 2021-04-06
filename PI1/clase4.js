@@ -145,6 +145,25 @@ function precioSandwich(tomate, papas, huevo){
 precioSandwich();
 console.log(precioSandwich(true, true, true));
 
+//Versión hecha por el profe
+function precio(tom, pap, hue){
+    const base = 150;
+    const tomate = 20;
+    const papa = 50;
+    const huevo = 60;
+    let precioFinal = base;
+    if (tom === true) {
+        precioFinal = precioFinal + tomate;
+   } if (pap === true) {
+    precioFinal = precioFinal + papa;
+    }if (hue === true) {
+    precioFinal = precioFinal + huevo;
+}
+    return precioFinal;
+}
+    console.log(precio(true, false, true));
+
+
 // Consigna switch
 function estacion(mes){
 switch (mes) {
